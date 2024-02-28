@@ -1,3 +1,6 @@
+import { changeTitle, changeHeader, changeAboutMe } from "/assets/js/manipulate.js";
+import { findElementById, findFirstElementOfClass, findFirstElementOfTag, findElementsOfTag, findElementsOfClass } from "/assets/js/search.js";
+
 changeTitle();
 changeHeader();
 changeAboutMe();
